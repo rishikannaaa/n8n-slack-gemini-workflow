@@ -13,20 +13,24 @@ This repository contains a powerful automation built using [n8n.io](https://n8n.
 
 ---
 
-## 📸 Workflow Preview
+## 🖼️ Workflow Overview
 
-![Workflow Screenshot](./workflow.png)
+This screenshot shows the n8n workflow that monitors Reddit, processes content using Google Gemini, and sends AI replies to Slack:
+
+<p align="center">
+  <img src="./workflow-preview.png" alt="n8n Reddit to Gemini to Slack workflow" width="800"/>
+</p>
 
 ---
 
 ## 📂 Files
 
-| File            | Description                                        |
-|-----------------|----------------------------------------------------|
-| `workflow.json` | Importable n8n workflow                           |
-| `workflow.png`  | Screenshot of the workflow for preview            |
-| `.gitignore`    | Common ignore rules for GitHub repo               |
-| `README.md`     | Full documentation and usage guide                |
+| File                | Description                                        |
+|---------------------|----------------------------------------------------|
+| `workflow.json`     | Importable n8n workflow                           |
+| `workflow-preview.png` | Screenshot of the workflow for preview        |
+| `.gitignore`        | Common ignore rules for GitHub repo               |
+| `README.md`         | Full documentation and usage guide                |
 
 ---
 
